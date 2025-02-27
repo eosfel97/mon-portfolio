@@ -1,6 +1,5 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useNavigate } from "react-router-dom";
 import  Navigation  from "../components/Navigation";
 import  PageTransitionEffects  from "../components/PageTransitionEffects";
 import  ScrollSpeedLines  from "../components/ScrollSpeedLines";
@@ -49,7 +48,6 @@ const categories = [
 ];
 
 export default function Projects() {
-  const navigate = useNavigate();
   const [selectedCategory, setSelectedCategory] = React.useState("all");
   const [selectedProject, setSelectedProject] = React.useState<typeof mockProjects[0] | null>(null);
 

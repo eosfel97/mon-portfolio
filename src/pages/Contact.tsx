@@ -1,6 +1,5 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useNavigate } from "react-router-dom";
 import  Navigation  from "../components/Navigation";
 import  PageTransitionEffects  from "../components/PageTransitionEffects";
 import ScrollSpeedLines  from "../components/ScrollSpeedLines";
@@ -20,7 +19,7 @@ interface FormErrors {
 }
 
 export default function Contact() {
-  const navigate = useNavigate();
+  
   const [formData, setFormData] = React.useState<FormData>({
     name: "",
     email: "",
