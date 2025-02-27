@@ -102,7 +102,7 @@ export default function About() {
               À Propos de Moi
             </h1>
             <p className="text-xl text-gray-600">
-              Je suis GNAHIET, étudiant en licence informatique basé à Épinay-sur-Seine, passionné par l'art japonais et le développement web.
+              Je suis GNAHIET, étudiant en licence  informatique basé à Épinay-sur-Seine, passionné par l'art japonais et le développement web.
             </p>
           </motion.div>
 
